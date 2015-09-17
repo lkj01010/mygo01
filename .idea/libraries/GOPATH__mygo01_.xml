@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;mygo01&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/ipc" />
+      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cgss" />
+      <root url="file://$PROJECT_DIR$/../../../eclipse-ws/mygo01/src/test01.go" />
+      <root url="file://$PROJECT_DIR$/../helloworld.go" />
+      <root url="file://$PROJECT_DIR$/../test" />
+      <root url="file://$PROJECT_DIR$/../gonet" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../src" />
+      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cg" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../test/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/visualfc/fibutil/.git" />
+      <root url="file://$PROJECT_DIR$/../gonet/.git" />
+      <root url="file://$PROJECT_DIR$/../gonet/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/_goremote" />
+      <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/_testing" />
+      <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/_gccgo" />
+    </excluded>
+  </library>
+</component>

@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;mygo01&gt;">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
       <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/ipc" />
       <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cgss" />
       <root url="file://$PROJECT_DIR$/../../../eclipse-ws/mygo01/src/test01.go" />

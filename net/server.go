@@ -6,6 +6,7 @@ import (
 	"net"
 	"time"
 	"sync"
+	"os"
 )
 
 
@@ -74,7 +75,15 @@ type conn struct{
 }
 
 func (c *conn)serve(){
-
+	origConn := c.rwc // copy it before it's set nil on Close or Hijack
+	defer func() {
+		if err := recover(); err != nil {
+			const size = 64 << 10
+			buf := make([]byte, size)
+			buf = buf[:runtime.Stack(buf, false)]
+			c.server.logf("http: panic serving %v: %v\n%s", c.remoteAddr, err, buf)
+		}
+	}
 }
 
 
@@ -161,5 +170,13 @@ func (srv *Server) Serve(l net.Listener) error {
 		}
 //		c.setState(c.rwc, StateNew) // before Serve can return
 		go c.serve()
+	}
+}
+
+//----------------------------------------
+func checkError(err error) {
+	if err != nil {
+		ERR("Fatal error:", err)
+		os.Exit(-1)
 	}
 }

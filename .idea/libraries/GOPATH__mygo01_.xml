@@ -1,16 +1,27 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;mygo01&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../.DS_Store" />
-      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/ipc" />
-      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cgss" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/hub" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/cfg" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/types" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/agent" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/db" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/gamedata" />
       <root url="file://$PROJECT_DIR$/../../../eclipse-ws/mygo01/src/test01.go" />
-      <root url="file://$PROJECT_DIR$/../helloworld.go" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/helper" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/stats" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/scripts" />
+      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/ipc" />
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cgss" />
       <root url="file://$PROJECT_DIR$/../test" />
+      <root url="file://$PROJECT_DIR$/../helloworld.go" />
       <root url="file://$PROJECT_DIR$/../gonet" />
-      <root url="file://$PROJECT_DIR$/../github.com" />
       <root url="file://$PROJECT_DIR$/../src" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/misc" />
       <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/cg" />
+      <root url="file://$PROJECT_DIR$/../gonet/src/README.md" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

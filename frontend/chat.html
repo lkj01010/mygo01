@@ -13,7 +13,7 @@
     var socket;
 
     function init(){
-      var host = "ws://192.168.20.31:1234/";
+      var host = "ws://127.0.0.1:8088/";
       try{
         socket = new WebSocket(host);
         socket.onopen    = function(msg){ ; };

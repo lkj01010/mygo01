@@ -9,6 +9,7 @@
       <root url="file://$PROJECT_DIR$/../gonet/src/gamedata" />
       <root url="file://$PROJECT_DIR$/../../../eclipse-ws/mygo01/src/test01.go" />
       <root url="file://$PROJECT_DIR$/../gonet/src/helper" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../gonet/src/stats" />
       <root url="file://$PROJECT_DIR$/../gonet/src/scripts" />
       <root url="file://$PROJECT_DIR$/../../../gopath-book/chapter4/cgss/src/ipc" />
@@ -28,9 +29,12 @@
     <excluded>
       <root url="file://$PROJECT_DIR$/../test/.idea" />
       <root url="file://$PROJECT_DIR$/../github.com/visualfc/fibutil/.git" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/redis.v3/.git" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/bsm/ratelimit.v1/.git" />
       <root url="file://$PROJECT_DIR$/../gonet/.git" />
       <root url="file://$PROJECT_DIR$/../gonet/.idea" />
       <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/_goremote" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in/redis.v3/.test" />
       <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/.git" />
       <root url="file://$PROJECT_DIR$" />
       <root url="file://$PROJECT_DIR$/../github.com/nsf/gocode/_testing" />
